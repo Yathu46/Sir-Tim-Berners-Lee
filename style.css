@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding-top: 80px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.profile {
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+#welcome {
+    background-color: lightcoral;
+    width: 450px;
+    height: 450px;
+    margin-left: 450px;
+    overflow: hidden;
+    display: table;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: monospace;
+    font-weight: 400;
+}
+
+#name {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Ubuntu Mono';
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 100px;
+    margin: 8px auto;
+    border-radius: 5px;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 23px;
+}
+
+p {
+    max-width: 750px;
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: sans-serif;
+}
+
+.menu {
+    position: fixed;
+    font-family: sans-serif;
+    top: 10px;
+    z-index: 10;
+    background-color: crimson;
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+}
+
+.links {
+    display: inline;
+    color: indianred;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: darkslategray;
+    border-radius: 10px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.article:hover {
+    color: rgb(224, 56, 56);
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#contact {
+    
+}
+
+#contact_1 h3 {
+    display: inline;
+}
